@@ -1,0 +1,13 @@
+{
+    "autoload": {
+      "psr-4": {
+        "StudentsRecruitment\\": "src/"
+      }
+    },
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.11"
+    }
+}

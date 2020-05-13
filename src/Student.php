@@ -1,24 +1,30 @@
 <?php
 
+namespace StudentsRecruitment;
+
 class Student
 {
     /**
      * @var string
      */
     private $firstName;
-    
+
     /**
      * @var string
      */
     private $lastName;
-    
-    // Konstruktor...
-    
+
+    public function __construct($firstName, $lastName)
+    {
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+    }
+
     public function getFirstName(): string
     {
         return $this->firstName;
     }
-    
+
     public function getLastName(): string
     {
         return $this->lastName;
