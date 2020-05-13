@@ -1,5 +1,3 @@
-Students
-Wprowadzenie
 Uczelnia przygotowuje nowy system obsługi rekrutacji kandydatów na studia. Obsługiwać on będzie jednocześnie wszystkie wydziały, które mogą mieć jednak odmienne polityki rekrutacyjne. Przykładowo:
 
 Wydział A:
