@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace StudentsRecruitment;
 
 use DateTimeImmutable;
@@ -16,17 +18,17 @@ class Application
      */
     private $submissionDate;
 
+    /**
+     * @var int
+     */
+    private $points;
+
     public function __construct(Student $student, DateTimeImmutable $submissionDate, int $points)
     {
         $this->student = $student;
         $this->submissionDate = $submissionDate;
         $this->points = $points;
     }
-
-    /**
-     * @var int
-     */
-    private $points;
 
     public function getStudent(): Student
     {

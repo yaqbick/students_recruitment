@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace StudentsRecruitment;
 
 class Student
@@ -14,7 +16,7 @@ class Student
      */
     private $lastName;
 
-    public function __construct($firstName, $lastName)
+    public function __construct(string $firstName, string $lastName)
     {
         $this->firstName = $firstName;
         $this->lastName = $lastName;
